@@ -1,0 +1,40 @@
+#urls.py
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='Gayathri_Website'),
+]
+
+#manage.py
+
+#!/usr/bin/env python
+import os
+import sys
+
+if __name__ == '__main__':
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+    try:
+        from django.core.management import execute_from_command_line
+    except ImportError as exc:
+        raise ImportError(
+            "Couldn't import Django. Are you sure it's installed and "
+            "available on your PYTHONPATH environment variable? Did you "
+            "forget to activate a virtual environment?"
+        ) from exc
+    execute_from_command_line(sys.argv)
+    
+    
+    #home.html
+    
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Gayathri website</title><h2><center>Gayathri Panangipalli home page</CENTER></H2>
+</head>
+<body>
+	<h1><center><Gayathri Panangipalli home page</CENTER></h1>
+</body>
+</html>
+
