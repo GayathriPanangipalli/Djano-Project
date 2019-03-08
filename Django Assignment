@@ -28,13 +28,20 @@ if __name__ == '__main__':
     
 #home.html
     
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Gayathri website</title><h2><center>Gayathri Panangipalli home page</CENTER></H2>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 200px;
+}
+</style>
+<div class="center">
+	<title>Gayathri website</title><h1><center>Gayathri Panangipalli home page</CENTER></h1>
+</div>
 </head>
-<body>
-	<h1><center><Gayathri Panangipalli home page</CENTER></h1>
 </body>
 </html>
 
